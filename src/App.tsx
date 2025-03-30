@@ -1,24 +1,13 @@
-import Navbar from "./components/Navbar/Navbar"
-import Hero from "./components/Hero/Hero";
-import BgImage from "./assets/bg.png"
-const bgStyle = {
-  backgroundImage: `url(${BgImage})`,
-  backgroundRepeat: "no-repeat",
-  backgroundSize: "cover",
-  backgroundPosition: "center",
-  backgroundAttachment: "fixed",
-};
+import Header from "./sections/Header";
+import Hero from "./sections/Hero";
 
 function App() {
-  return (
-    <div className="overflow-x-hidden">
-      <div style={bgStyle}>
-        <Navbar />
-        <Hero />
-       
-      </div>
-    </div>
-  )
+    return (
+        <main  className="overflow-hidden">
+            <Header />
+            <Hero />
+        </main>
+    );
 }
 
-export default App
+export default App;
