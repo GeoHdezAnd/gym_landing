@@ -30,7 +30,7 @@ export default {
                 200: "0px 4px 4px rgba(0, 0, 0, 0.25), 0px 16px 24px rgba(0, 0, 0, 0.25), inset 0px 4px 10px #ff3333",
                 300: "0px 4px 4px rgba(0, 0, 0, 0.25), 0px 16px 24px rgba(0, 0, 0, 0.25), inset 0px 3px 6px #e87370",
                 400: "inset 0px 2px 4px 0 rgba(255, 255, 255, 0.05)",
-                500: "0px 1px 22px rgba(214, 208, 208, 0.44), 0px -1px 48px rgba(197, 197, 197, 0.44)",
+                500: "0px 1px 8px rgba(214, 208, 208, 0.44), 5px -12px 30px rgba(197, 197, 197, 0.44)",
             },
             transitionProperty: {
                 borderColor: "border-color",

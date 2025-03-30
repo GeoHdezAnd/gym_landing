@@ -48,11 +48,11 @@
     }
 
     .h2 {
-        @apply text-[64px] font-black leading-[64px];
+        @apply text-[68px] font-black leading-[64px];
     }
 
     .h3 {
-        @apply text-[48px] font-semibold leading-[56px] tracking-[-0.02em];
+        @apply text-[48px] font-extrabold leading-[34px] tracking-[-.2rem] ;
     }
 
     .h4 {
@@ -153,7 +153,7 @@
     }
 
     .caption {
-        @apply small-2 mb-5 uppercase text-p3;
+        @apply small-2 mb-5 uppercase ;
     }
 
     .scroll-hide::-webkit-scrollbar {

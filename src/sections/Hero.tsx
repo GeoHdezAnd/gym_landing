@@ -21,7 +21,7 @@ const Hero = () => {
                             variants={SlideRight(0.6)}
                             initial="hidden"
                             animate="visible"
-                            className="mb-6 h1 text-p4 uppercase max-lg:mb-7 max-lg:h2 max-md:mb-4 max-md:text-5xl flex flex-col max-md:leading-12"
+                            className="mb-6 text-p4 uppercase max-lg:mb-7 h2 max-md:mb-4 max-md:text-5xl flex flex-col max-md:leading-12"
                         >
                             GYM{" "}
                             <span className="font-logo h2 text-red-800 ">
