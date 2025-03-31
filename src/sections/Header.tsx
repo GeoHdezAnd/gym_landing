@@ -21,7 +21,7 @@ const Header = () => {
         <LinkScroll
             onClick={() => setIsOpen(false)}
             to={title}
-            offset={-100}
+            offset={-200}
             spy
             smooth
             activeClass="nav-active"
@@ -61,7 +61,7 @@ const Header = () => {
                                 <li className="nav-li">
                                     <NavLink title="nosotros" />
                                     <div className="dot" />
-                                    <NavLink title="pricing" />
+                                    <NavLink title="planes" />
                                 </li>
 
                                 <li className="nav-logo">

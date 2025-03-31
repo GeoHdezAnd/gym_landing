@@ -40,7 +40,7 @@
 @layer utilities {
     /* START of Typography */
     .h-num {
-        @apply font-inter text-[72px] font-bold leading-[84px];
+        @apply font-inter text-[60px] font-bold leading-[84px];
     }
 
     .h1 {
@@ -68,7 +68,7 @@
     }
 
     .body-1 {
-        @apply text-[18px] leading-[28px];
+        @apply text-[16px] leading-[28px];
     }
 
     .body-2 {
@@ -228,7 +228,7 @@
     }
 
     .pricing-bg {
-        @apply pointer-events-none absolute -bottom-16 left-[calc(50%-480px)] z-2 mx-auto w-960;
+        @apply pointer-events-none absolute -bottom-52 left-[calc(25%)] z-2 mx-auto w-960;
     }
 
     .pricing-plan_first {
