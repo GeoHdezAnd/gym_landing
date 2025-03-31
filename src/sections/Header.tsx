@@ -76,7 +76,7 @@ const Header = () => {
                                     >
                                         <img
                                             src="/images/logo.webp"
-                                            width={90}
+                                            width={80}
                                             alt="logo"
                                             
                                         />

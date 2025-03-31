@@ -52,7 +52,7 @@
     }
 
     .h3 {
-        @apply text-[48px] font-extrabold leading-[34px] tracking-[-.2rem] ;
+        @apply text-[48px] font-extrabold leading-[35px] tracking-[-.2rem] ;
     }
 
     .h4 {
@@ -228,7 +228,7 @@
     }
 
     .pricing-bg {
-        @apply pointer-events-none absolute -bottom-52 left-[calc(25%)] z-2 mx-auto w-960;
+        @apply pointer-events-none absolute -bottom-52 left-[calc(24%)] max-lg:left-[calc(-25%)] z-2 mx-auto w-960;
     }
 
     .pricing-plan_first {
@@ -250,7 +250,7 @@
     /* END of Pricing */
     /* START of FAQ */
     .faq-line_after {
-        @apply after:absolute after:-top-1.5 after:left-[calc(50%-5px)] after:z-4 after:size-2.5 after:rounded-half after:border-2 after:border-s2 after:bg-s1 after:content-[''];
+        @apply after:absolute after:-top-1.5 after:left-[calc(50%-5px)] after:z-4 after:size-2 after:rounded-half after:border after:border-s4 after:bg-s1 after:content-[''];
     }
 
     .faq-glow_before {

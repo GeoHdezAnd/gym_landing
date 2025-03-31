@@ -16,12 +16,12 @@ const OurPlans = () => {
                         variants={FadeUp(0.5)}
                         initial="hidden"
                         whileInView="visible"
-                        className="max-w-1000 pricing-head_before relative mx-auto border-l border-r border-s2 bg-s1/50 pb-40 pt-28 max-xl:max-w-4xl max-lg:border-none max-md:pb-32 max-md:pt-16"
+                        className="max-w-1000 pricing-head_before relative mx-auto border-l border-r border-s2 bg-s1/50 pb-36 pt-28 max-xl:max-w-4xl max-lg:border-none max-md:pb-32 max-md:pt-16"
                     >
-                        <h3 className="h3 max-lg:h4 max-md:h5 z-3 relative mx-auto mb-14 max-w-lg text-center text-p4 max-md:mb-11 max-sm:max-w-sm">
+                        <h3 className="h3 z-3 relative mx-auto mb-14 max-w-lg text-center text-p4 max-md:mb-11 max-sm:max-w-sm">
                             Nuestros planes
                         </h3>
-                        <div className="relative z-4 mx-auto flex w-[350px] rounded-3xl border-[3px] border-s4/25 bg-s1/50  backdrop-blur-[6px] max-md:w-[310px]">
+                        <div className="relative z-4 mx-auto flex w-[350px] rounded-3xl border-[3px] border-s4/25 bg-s1/50  backdrop-blur-[6px] max-md:w-[300px]">
                             <button
                                 className={clsx(
                                     "pricing-head_btn ",
@@ -62,7 +62,7 @@ const OurPlans = () => {
                         variants={FadeUp(0.3)}
                         initial="hidden"
                         whileInView="visible"
-                        className="scroll-hide relative z-2 -mt-24 flex items-start max-xl:gap-5 max-xl:overflow-auto max-xl:pt-2 "
+                        className="scroll-hide relative z-2 -mt-20 flex items-start max-xl:gap-5 max-xl:overflow-auto max-xl:pt-2 "
                     >
                         {gymPlans.map((plan, index) => (
                             <div
@@ -80,7 +80,7 @@ const OurPlans = () => {
                                 <div
                                     className={clsx(
                                         "relative flex flex-col items-center",
-                                        index === 1 ? "pt-14 " : "pt-14"
+                                        index === 1 ? "pt-10 " : "pt-14"
                                     )}
                                 >
                                     <div
