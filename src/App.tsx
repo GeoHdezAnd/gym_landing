@@ -3,7 +3,6 @@ import Header from "./sections/Header";
 import Hero from "./sections/Hero";
 import OurPlans from "./sections/OurPlans";
 import Faq from "./sections/Faq";
-import Reviews from "./sections/Reviews";
 
 function App() {
     return (

@@ -8,10 +8,11 @@
     @font-face {
         font-family: "Eater";
         src: local("Eater"),
-            url("./fonts/BungeeTint-Regular.ttf") format("truetype");
+            url("/fonts/BungeeTint-Regular.ttf") format("truetype"); /* Usa / en lugar de ./ */
         font-weight: 400;
         font-display: swap;
     }
+
     html {
         @apply bg-s1;
     }
@@ -64,7 +65,7 @@
     }
 
     .h6 {
-        @apply text-[24px] font-medium leading-[36px];
+        @apply text-[20px] font-medium leading-[36px];
     }
 
     .body-1 {
@@ -190,7 +191,7 @@
     /* END of Header */
     /* START of Hero */
     .hero-img_res {
-        @apply max-sm:top-32 max-lg:top-10 max-lg:left-[calc(50%-14px)] max-lg:w-[1100px] max-md:bottom-[-590px] max-md:left-[calc(50%-10px)] max-md:top-auto;
+        @apply sm:top-28 max-sm:top-20 max-lg:top-14  max-lg:left-[calc(50%-14px)] max-lg:w-[1100px] max-md:bottom-[-590px] max-md:left-[calc(50%-10px)] max-md:top-auto;
     }
 
     /* END of Hero */

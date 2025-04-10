@@ -34,9 +34,8 @@ export const gymPlans = [
             "Horario matutino (6am-2pm)",
             "1 clase grupal por semana",
             "Toalla y locker incluidos",
-           "Acceso al blog"
+            "Acceso al blog",
         ],
-       
     },
     {
         id: "1",
@@ -51,7 +50,6 @@ export const gymPlans = [
             "Plan de entrenamiento personalizado",
             "Registro de un invitado por mes",
         ],
-       
     },
     {
         id: "2",
@@ -66,7 +64,6 @@ export const gymPlans = [
             "Descuentos en suplementos",
             "2 invitados por mes",
         ],
-       
     },
 ];
 
@@ -74,51 +71,144 @@ export const gymFaq = [
     {
         id: "0",
         question: "¿Cuántas veces a la semana debo entrenar para ver resultados?",
-        answer: "Lo ideal es 3-5 sesiones semanales. Para hipertrofia: 4-5 días con splits musculares. Para fuerza: 3-4 días enfocados en ejercicios compuestos. El descanso es igual de importante.",
+        answer: [
+            "Frecuencia ideal según objetivos:",
+            "Principiantes: 3-4 días/semana (rutinas full-body)",
+            "Hipertrofia avanzada: 4-6 días (split por grupos musculares)",
+            "Fuerza máxima: 3-5 días (énfasis en ejercicios compuestos)",
+            "Mantenimiento: 2-3 días/semana",
+            "NOTA: La consistencia > frecuencia. Mejor 3 días/semana constante que 5 días irregular."
+        ],
     },
     {
         id: "1",
         question: "¿Cómo optimizar mi rutina para ganar músculo?",
-        answer: "Enfócate en: 1) Ejercicios multiarticulares (press banca, sentadillas), 2) Progresión de cargas (aumenta peso/repes gradualmente), 3) 8-12 repeticiones por set, 4) 60-90 segundos de descanso entre series.",
+        answer: [
+            "Estrategias comprobadas:",
+            "Prioriza ejercicios multiarticulares: sentadillas, peso muerto, press banca, dominadas",
+            "Progresión inteligente: aumenta 2-5% de peso cuando completes todas las repeticiones",
+            "Rango de repeticiones: 6-12 para hipertrofia, 3-5 para fuerza",
+            "Tiempo bajo tensión: 30-45 segundos por serie",
+            "Descanso entre series: 1.5-2 minutos para máximo crecimiento"
+        ],
     },
     {
         id: "2",
         question: "¿Cardio antes o después de pesas?",
-        answer: "Después. Prioriza tu energía en el entrenamiento de fuerza. Haz cardio moderado 2-3x/semana (20-30 min) en días separados o post-entreno. Para quemar grasa: HIIT 1-2x/semana.",
+        answer: [
+            "Recomendación basada en evidencia:",
+            "Post-entrenamiento: Ideal para priorizar ganancia muscular",
+            "Días separados: Óptimo para objetivos de composición corporal",
+            "Cardio recomendado",
+            "HIIT: 2x/semana (20 min sesiones)",
+            "LISS: 2-3x/semana (30-45 min a 60-70% FCmáx)",
+            "NOTA: El cardio matutino en ayunas solo muestra ventajas marginales para atletas avanzados"
+        ],
     },
     {
         id: "3",
         question: "¿Cuánta proteína necesito realmente?",
-        answer: "1.6-2.2g por kg de peso corporal. Ej: 70kg → 112-154g/día. Distribúyela en 4-5 comidas (30-40g por ingesta). Fuentes clave: huevos, pollo, pescado, whey protein si es necesario.",
+        answer: [
+            "Requisitos proteicos científicos:",
+            "Sedentarios: 0.8g/kg",
+            "Deportistas recreativos: 1.2-1.6g/kg",
+            "Atletas fuerza: 1.6-2.2g/kg",
+            "Ejemplo práctico",
+            "Persona de 75kg buscando hipertrofia: 120-165g/día",
+            "Distribución óptima",
+            "4-5 comidas con 30-40g de proteína de alta calidad (valor biológico >90)",
+            "Suplementación solo cuando sea necesaria para alcanzar metas"
+        ],
     },
     {
         id: "4",
         question: "¿Cómo romper un estancamiento?",
-        answer: "1) Varía tu rutina cada 6-8 semanas, 2) Prueba técnicas de intensidad (dropsets, superseries), 3) Revisa tu nutrición y descanso, 4) Incorpora ejercicios nuevos para 'sorprender' al músculo.",
+        answer: [
+            "Estrategias avanzadas:",
+            "Sobrecarga progresiva: Aumenta volumen (series/semana) gradualmente",
+            "Variación estratégica: Cambia ángulos, agarres o ROM cada 6-8 semanas",
+            "Técnicas de intensidad",
+            "Rest-pause (pausa-descanso)",
+            "Cluster sets",
+            "Repeticiones excéntricas",
+            "Deload cada 6-8 semanas: Reduce volumen 40-50% por 1 semana"
+        ],
     },
     {
         id: "5",
         question: "¿Son necesarios los suplementos?",
-        answer: "Los básicos efectivos: proteína en polvo (si no alcanzas la meta), creatina (5g/día), cafeína pre-entreno. El 90% de los resultados vienen de alimentación y entrenamiento consistente.",
+        answer: [
+            "Jerarquía de importancia:",
+            "Alimentación adecuada (60% del resultado)",
+            "Descanso adecuado (30%)",
+            "Suplementación (10%)",
+            "Suplementos básicos con evidencia:",
+            "Proteína whey (cuando no se alcanzan metas)",
+            "Creatina monohidrato (3-5g/día)",
+            "Cafeína (pre-entreno, 3-6mg/kg)",
+            "Opcionales para avanzados:",
+            "Citrulina malato (6-8g pre-entreno)",
+            "Beta-alanina (3-6g/día)"
+        ],
     },
     {
         id: "6",
         question: "¿Cuánto tiempo debo descansar entre series?",
-        answer: "Fuerza máxima: 3-5 min. Hipertrofia: 1-2 min. Resistencia muscular: 30-60 seg. Usa un reloj para controlarlo; descansos muy cortos limitan tu rendimiento.",
+        answer: [
+            "Guía basada en objetivos:",
+            "Fuerza máxima (1-5 repes): 3-5 minutos",
+            "Hipertrofia (6-12 repes): 1.5-2 minutos",
+            "Resistencia muscular (15+ repes): 30-60 segundos",
+            "Factores clave:",
+            "Recuperación completa del sistema nervioso",
+            "Restablecimiento de ATP-CP (>95%)",
+            "Recuperación metabólica"
+        ],
     },
     {
         id: "7",
         question: "¿Cómo evitar lesiones?",
-        answer: "1) Calentamiento dinámico (10-15 min), 2) Técnica perfecta antes de aumentar peso, 3) Movilidad 2x/semana, 4) Escucha tu cuerpo - el dolor agudo es señal de parar.",
+        answer: [
+            "Protocolo preventivo:",
+            "Calentamiento dinámico: 10-15 min (movilidad + activación)",
+            "Progresión gradual: No aumentar peso más del 10% semanal",
+            "Técnica perfecta",
+            "Controle motor antes de carga",
+            "ROM completo sin compensaciones",
+            "Trabajo accesorio",
+            "Movilidad 3x/semana",
+            "Core stability diario"
+        ],
     },
     {
         id: "8",
         question: "¿Entrenar en ayunas es bueno?",
-        answer: "Depende. Puede ayudar a quemar grasa pero riesgo de catabolismo muscular. Si lo haces: entrena <60 min, usa BCAA y consume proteína post-entreno inmediatamente. No recomendado para principiantes.",
+        answer: [
+            "Ventajas potenciales:",
+            "Mayor oxidación de grasas (efecto agudo)",
+            "Adaptaciones mitocondriales",
+            "Desventajas:",
+            "Riesgo de catabolismo muscular en sesiones >60 min",
+            "Rendimiento reducido en alta intensidad",
+            "Recomendación práctica:",
+            "Sesiones <45 min de intensidad moderada",
+            "Suplementar con 10g BCAA si se entrena ayunas"
+        ],
     },
     {
         id: "9",
         question: "¿Cuánto tardan en verse resultados reales?",
-        answer: "Con consistencia: 4-8 semanas para cambios notables (fuerza), 3-6 meses para hipertrofia visible. Toma fotos comparativas mensuales - los cambios graduales son difíciles de percibir día a día.",
+        answer: [
+            "Línea temporal realista:",
+            "Primeras 2-4 semanas: Mejoras neurales (no visibles)",
+            "4-8 semanas: Cambios iniciales en composición corporal",
+            "3-6 meses: Resultados visibles claramente",
+            "1 año+: Transformación completa",
+            "Factores clave:",
+            "Consistencia en entrenamiento y nutrición",
+            "Progresión adecuada de cargas",
+            "Recuperación óptima (sueño + manejo estrés)",
+            "NOTA: Tomar medidas antropométricas semanales > confiar solo en el espejo"
+        ],
     }
 ];

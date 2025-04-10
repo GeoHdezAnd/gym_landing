@@ -6,7 +6,7 @@ import "react-slidedown/lib/slidedown.css";
 type Faq = {
     id: string;
     question: string;
-    answer: string;
+    answer: string[];
 };
 type FaqItemProps = {
     item: Faq;
@@ -50,7 +50,29 @@ const FaqItem = ({ item, index }: FaqItemProps) => {
             </div>
             <SlideDown>
                 {activeId === item.id && (
-                    <div className="body-3 px-7 py-3.5">{item.answer}</div>
+                    <div className="body-3 px-7 py-3.5">
+                        {item.answer.map((advice, index) => (
+                            <div
+                                className="flex items-start gap-3 mb-2"
+                                key={index}
+                            >
+                                {!advice.endsWith(":") &&
+                                    !advice.includes("NOTA") && (
+                                        <i className="ri-focus-2-fill text-p2 mt-0.5 flex-shrink-0" />
+                                    )}
+                                <p
+                                    className={
+                                        advice.endsWith(":") ||
+                                        advice.includes("NOTA")
+                                            ? "font-semibold"
+                                            : ""
+                                    }
+                                >
+                                    {advice}
+                                </p>
+                            </div>
+                        ))}
+                    </div>
                 )}
             </SlideDown>
             <div
