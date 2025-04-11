@@ -6,9 +6,9 @@
 
 @layer base {
     @font-face {
-        font-family: "Eater";
-        src: local("Eater"),
-            url("/fonts/BungeeTint-Regular.ttf") format("truetype"); /* Usa / en lugar de ./ */
+        font-family: "BungeeSpice";
+        src: local("BungeeSpice"),
+            url("/fonts/BungeeSpice-Regular.ttf") format("truetype"); 
         font-weight: 400;
         font-display: swap;
     }
@@ -45,11 +45,11 @@
     }
 
     .h1 {
-        @apply text-[84px] font-black leading-[84px] tracking-[-0.03em];
+        @apply text-[84px] font-black leading-[70px] tracking-[-0.03em];
     }
 
     .h2 {
-        @apply text-[68px] font-black leading-[64px];
+        @apply text-[68px] font-black leading-[50px];
     }
 
     .h3 {
@@ -93,7 +93,7 @@
     }
 
     .small-1 {
-        @apply text-[14px] font-semibold leading-[18px] tracking-[0.03em];
+        @apply text-[16px] font-semibold leading-[18px] tracking-[0.03em];
     }
 
     .small-2 {
@@ -107,31 +107,31 @@
     /* END of Typography */
     /* START of Gradients */
     .g1 {
-        background: linear-gradient(rgba(245, 196, 196, 0.5), transparent);
+        background: linear-gradient(rgba(150, 133, 35, 0.5), transparent);
     }
 
     .g2 {
-        background: linear-gradient(#a33036, #9f1919);
+        background: linear-gradient(#a1a330, #9f7b19);
     }
 
     .g3 {
-        background: linear-gradient(#d93c3c, #380c0c);
+        background: linear-gradient(#d9cf3c, #382a0c);
     }
 
     .g4 {
-        background: linear-gradient(#383030, #3b0c0c);
+        background: linear-gradient(#383830, #3b2c0c);
     }
 
     .g5 {
-        background: linear-gradient(#313030, #180101);
+        background: linear-gradient(#313030, #181601);
     }
 
     .g6 {
-        background: linear-gradient(#793333, #380c0c);
+        background: linear-gradient(#796933, #382e0c);
     }
 
     .g7 {
-        background: linear-gradient(#5a1b1b, #340e0e);
+        background: linear-gradient(#5a541b, #34280e);
     }
 
     .g8 {
@@ -144,7 +144,7 @@
     }
 
     .g9 {
-        background: linear-gradient(#270808, transparent);
+        background: linear-gradient(#41330c, transparent);
     }
 
     /* END of Gradients */
@@ -217,15 +217,15 @@
     /* END of Feature */
     /* START of Pricing */
     .pricing-head_before {
-        @apply before:absolute before:-bottom-44 before:left-1/5 before:h-96 before:w-13/20 before:bg-s4/50 before:blur-[200px] before:content-[''];
+        @apply before:absolute before:-bottom-44 before:left-1/5 before:h-72 before:w-13/20 before:bg-s4/50 before:blur-[200px] before:content-[''];
     }
 
     .pricing-head_btn {
-        @apply base-bold relative z-2 h-16 flex-1 uppercase text-p5 transition-colors duration-500 hover:text-p4;
+        @apply base-bold relative z-2 h-16 flex-1 uppercase  transition-colors duration-500 hover:text-p4;
     }
 
     .pricing-head_btn_before {
-        @apply before:absolute before:-top-16 before:left-9 before:right-9 before:bg-s4 before:blur-xl before:content-[""];
+        @apply before:absolute before:-top-16 before:left-9 before:right-9 before:bg-s1 before:blur-xl before:content-[""];
     }
 
     .pricing-bg {

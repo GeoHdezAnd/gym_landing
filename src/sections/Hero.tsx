@@ -8,12 +8,12 @@ const Hero = () => {
         <section className="relative pt-52 pb-40 max-lg:pt-52 max-lg:pb-36 max-md:pt-36 max-md:pb-32">
             <Element name="hero">
                 <div className="container">
-                    <div className="relative z-2 max-w-512 max-lg:max-w-388">
+                    <div className="relative z-2 max-lg:max-w-388">
                         <motion.p
                             variants={SlideRight(0.8)}
                             initial="hidden"
                             animate="visible"
-                            className="caption small-2 uppercase text-p2"
+                            className="caption uppercase text-white"
                         >
                             NO PAIN, NO GAIN
                         </motion.p>
@@ -21,13 +21,11 @@ const Hero = () => {
                             variants={SlideRight(0.6)}
                             initial="hidden"
                             animate="visible"
-                            className="mb-6 text-p4 uppercase max-lg:mb-7 h2 max-md:mb-4 max-md:text-5xl flex flex-col max-md:leading-12"
+                            className="mb-6 text-p4 uppercase max-lg:mb-7 h1 max-md:mb-4 max-md:text-5xl flex flex-col max-md:leading-12"
                         >
-                            GYM{" "}
-                            <span className="font-logo h2 text-red-800 ">
-                                KINGS LAYER
-                            </span>
+                            <span className="font-logo  ">MR. GYM</span>
                         </motion.h1>
+                        <h2 className="h3 py-4">Ponte en forma y sé saludable</h2>
                         <motion.p
                             variants={SlideRight(0.4)}
                             initial="hidden"
@@ -43,8 +41,8 @@ const Hero = () => {
                             animate="visible"
                         >
                             <LinkScroll to="features" offset={-100} spy smooth>
-                                <Button icon="ri-account-circle-fill">
-                                    !Iniciar sesión!
+                                <Button icon="ri-whatsapp-fill">
+                                    !Contactar!
                                 </Button>
                             </LinkScroll>
                         </motion.div>
@@ -59,7 +57,7 @@ const Hero = () => {
                         <img
                             src="/images/hero.png"
                             className="size-512 opacity-50 
-              drop-shadow-[0_20px_25px_rgba(109,7,26,0.7)] "
+              drop-shadow-[0_20px_25px_rgba(245,140,39,0.8)] "
                             alt="hero"
                         />
                     </motion.div>

@@ -24,8 +24,8 @@ const AboutUs = () => {
                             className="relative"
                         >
                             En{" "}
-                            <span className="font-inter font-bold uppercasecd  text-red-600">
-                                Kingslayer
+                            <span className="font-inter font-bold uppercase  text-p3">
+                                Mr. GYM
                             </span>
                             , no solo transformamos cuerpos, ¡transformamos
                             vidas! Somos un equipo de apasionados por el fitness
@@ -45,12 +45,12 @@ const AboutUs = () => {
                             ({ id, icon, title, description }) => (
                                 <div
                                     key={id}
-                                    className="border-2 border-s4 bg-gradient-to-br from-s1 to-slate-800 text-white px-10 pb-12 rounded-xl flex-1 min-w-[250px] md:flex-[2] transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-p1/20"
+                                    className="border-2 border-gray-600 bg-gradient-to-br from-s2 to-slate-800 text-white px-10 pb-12 rounded-xl flex-1 min-w-[250px] md:flex-[2] transition-all duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-p1/20"
                                 >
                                     <div className="flex flex-col items-center mb-4">
-                                        <div className="w-[1px] h-8 bg-gradient-to-l from-transparent via-p1 to-transparent  " />
+                                        <div className="w-[1px] h-8 bg-gradient-to-l from-transparent via-p3 to-transparent  " />
                                         <div className="p-1 rounded-full border-2 border-p1 bg-gray-800/80 backdrop-blur-sm shadow-lg">
-                                            <div className="bg-black p-2 rounded-full shadow-100">
+                                            <div className="bg-s1 p-2 rounded-full shadow-400">
                                                 <img
                                                     src={icon}
                                                     className="size-12 object-contain rounded-full"

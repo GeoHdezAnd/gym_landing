@@ -8,7 +8,7 @@ const Header = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-            setHasScrolled(window.scrollY > 32);
+            setHasScrolled(window.scrollY > 30);
         };
 
         window.addEventListener("scroll", handleScroll);
@@ -21,7 +21,7 @@ const Header = () => {
         <LinkScroll
             onClick={() => setIsOpen(false)}
             to={title}
-            offset={-200}
+            offset={-250}
             spy
             smooth
             activeClass="nav-active"
@@ -34,16 +34,16 @@ const Header = () => {
         <header
             className={clsx(
                 "fixed top-0 left-0 z-50  w-full py-10 transition-all duration-500 max-lg:py-4 ",
-                hasScrolled && "py-2 backdrop-blur-[19px]"
+                hasScrolled && "py-4 backdrop-blur-[19px]"
             )}
         >
-            <div className="container flex h-14 items-center max-lg:px-5">
+            <div className="container flex h-10 items-center max-lg:px-2">
                 <a className="lg:hidden flex-1 cursor-pointer z-2 ">
                     <img
-                        src="/images/logo.webp"
+                        src="/images/logo.png"
                         width={100}
                         alt="logo"
-                        className="px-3  "
+                        className="px-3"
                     />
                 </a>
 
@@ -67,7 +67,7 @@ const Header = () => {
                                 <li className="nav-logo">
                                     <LinkScroll
                                         to="hero"
-                                        offset={-250}
+                                        offset={-200}
                                         spy
                                         smooth
                                         className={clsx(
@@ -75,8 +75,8 @@ const Header = () => {
                                         )}
                                     >
                                         <img
-                                            src="/images/logo.webp"
-                                            width={80}
+                                            src="/images/logo.png"
+                                            width={90}
                                             alt="logo"
                                             
                                         />

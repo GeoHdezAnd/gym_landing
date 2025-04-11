@@ -25,44 +25,85 @@ export const aboutUsCards = [
 export const gymPlans = [
     {
         id: "0",
-        title: "Básica",
-        priceMonthly: 300,
-        priceYearly: 2200, // 20/mes pagando anualmente
-        caption: "Perfecta para principiantes",
+        type: "gym",
+        duration: "7 días",
+        price: 220,
+        caption: "Semanal",
         features: [
-            "Acceso a zona de cardio y pesas",
-            "Horario matutino (6am-2pm)",
-            "1 clase grupal por semana",
-            "Toalla y locker incluidos",
-            "Acceso al blog",
+            "7 días de acceso al gym",
+            "Area de cardio",
+            "Lockers",
+            "Duchas",
         ],
     },
     {
         id: "1",
-        title: "Premium",
-        priceMonthly: 500,
-        priceYearly: 2700, // 35/mes pagando anualmente
-        caption: "La más popular",
+        type: "gym",
+        duration: "30 días",
+        price: 500,
+        caption: "Mes - Estudiante",
         features: [
-            "Acceso ilimitado 24/7",
-            "Clases grupales ilimitadas",
-            "Seguimiento de dieta",
+            "Acceso ilimitado",
+            "Area de cardio",
             "Plan de entrenamiento personalizado",
+            "Descuentos en clases",
             "Registro de un invitado por mes",
         ],
     },
     {
         id: "2",
-        title: "Familiar",
-        priceMonthly: 800,
-        priceYearly: 4000, // 60/mes pagando anualmente
-        caption: "Ahorro para familias",
+        type: "gym",
+        duration: "30 días",
+        price: 650,
+        caption: "Mensualidad",
         features: [
-            "Hasta 4 miembros de la familia",
-            "Acceso a todas las instalaciones",
-            "2 clases grupales semanales",
+           "Acceso ilimitado",
+            "Area de cardio",
+            "2 clases por semana",
             "Descuentos en suplementos",
-            "2 invitados por mes",
+        ],
+    },
+];
+
+// En tu archivo data.js o donde tengas los mock data
+export const cyclingPlans = [
+    {
+        id: "0",
+        type: "cycling",
+        duration: "7 clases",
+        price: 450,
+        caption: "Plan básico",
+        features: [
+            "7 clases de cycling",
+            "15 días de vigencia de las clases",
+            "Toalla incluida",
+        ],
+    },
+    {
+        id: "1",
+        type: "cycling",
+        duration: "Full access",
+        price: 800,
+        caption: "Plan premium mensual",
+        features: [
+            "30 clases",
+            "Acceso total a las clases",
+            "Toalla y locker incluido",
+            "Descuento en suplementos",
+            "1 invitado por mes",
+        ],
+    },
+    {
+        id: "2",
+        type: "cycling",
+        duration: "15 clases",
+        price: 1000,
+        caption: "Plan plata",
+        features: [
+            "15 clases ",
+            "30 días de vigencia las clases",
+            "Toalla y locker premium",
+            "Acceso prioritario",
         ],
     },
 ];

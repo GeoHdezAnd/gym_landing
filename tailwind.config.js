@@ -7,19 +7,19 @@ export default {
                 playfair: ["Playfair Display", "serif"],
                 inter: ["Inter", "sans-serif"],
                 poppins: ["Poppins", "sans-serif"],
-                logo: ['Eater', 'serif']
+                logo: ['BungeeSpice', 'serif']
             },
             colors: {
-                p1: "#c75146",
-                p2: "#a4161a",
-                p3: "#800e13",
-                p4: "#EAEDFF",
-                p5: "#e5dedc",
+                p1: "#ff7b00", // no se usa
+                p2: "#ff9500",
+                p3: "#ffaa00",
+                p4: "#EAEDFF", // blanco
+                p5: "#e5dedc", // gris
                 s1: "#161a1d",
                 s2: "#11151c",
                 s3: "#0b090a",
-                s4: "#691437",
-                s5: "#660708",
+                s4: "#f6aa1c",
+                s5: "#836101",
                 black: {
                     DEFAULT: "#000000",
                     100: "#0A0302",
