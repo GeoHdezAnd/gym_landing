@@ -25,7 +25,7 @@ const FaqItem = ({ item, index }: FaqItemProps) => {
                 }}
             >
                 <div className="flex-1">
-                    <div className="small-compact mb-1.5 text-p3 max-lg:hidden">
+                    <div className="small-compact mb-1.5 text-p2 max-lg:hidden">
                         {index < 10 ? "0" : ""}
                         {index}
                     </div>

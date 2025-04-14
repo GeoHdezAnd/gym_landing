@@ -70,14 +70,15 @@ export const gymPlans = [
 export const gymFaq = [
     {
         id: "0",
-        question: "¿Cuántas veces a la semana debo entrenar para ver resultados?",
+        question:
+            "¿Cuántas veces a la semana debo entrenar para ver resultados?",
         answer: [
             "Frecuencia ideal según objetivos:",
             "Principiantes: 3-4 días/semana (rutinas full-body)",
             "Hipertrofia avanzada: 4-6 días (split por grupos musculares)",
             "Fuerza máxima: 3-5 días (énfasis en ejercicios compuestos)",
             "Mantenimiento: 2-3 días/semana",
-            "NOTA: La consistencia > frecuencia. Mejor 3 días/semana constante que 5 días irregular."
+            "NOTA: La consistencia > frecuencia. Mejor 3 días/semana constante que 5 días irregular.",
         ],
     },
     {
@@ -89,7 +90,7 @@ export const gymFaq = [
             "Progresión inteligente: aumenta 2-5% de peso cuando completes todas las repeticiones",
             "Rango de repeticiones: 6-12 para hipertrofia, 3-5 para fuerza",
             "Tiempo bajo tensión: 30-45 segundos por serie",
-            "Descanso entre series: 1.5-2 minutos para máximo crecimiento"
+            "Descanso entre series: 1.5-2 minutos para máximo crecimiento",
         ],
     },
     {
@@ -102,7 +103,7 @@ export const gymFaq = [
             "Cardio recomendado",
             "HIIT: 2x/semana (20 min sesiones)",
             "LISS: 2-3x/semana (30-45 min a 60-70% FCmáx)",
-            "NOTA: El cardio matutino en ayunas solo muestra ventajas marginales para atletas avanzados"
+            "NOTA: El cardio matutino en ayunas solo muestra ventajas marginales para atletas avanzados",
         ],
     },
     {
@@ -117,7 +118,7 @@ export const gymFaq = [
             "Persona de 75kg buscando hipertrofia: 120-165g/día",
             "Distribución óptima",
             "4-5 comidas con 30-40g de proteína de alta calidad (valor biológico >90)",
-            "Suplementación solo cuando sea necesaria para alcanzar metas"
+            "Suplementación solo cuando sea necesaria para alcanzar metas",
         ],
     },
     {
@@ -131,7 +132,7 @@ export const gymFaq = [
             "Rest-pause (pausa-descanso)",
             "Cluster sets",
             "Repeticiones excéntricas",
-            "Deload cada 6-8 semanas: Reduce volumen 40-50% por 1 semana"
+            "Deload cada 6-8 semanas: Reduce volumen 40-50% por 1 semana",
         ],
     },
     {
@@ -148,7 +149,7 @@ export const gymFaq = [
             "Cafeína (pre-entreno, 3-6mg/kg)",
             "Opcionales para avanzados:",
             "Citrulina malato (6-8g pre-entreno)",
-            "Beta-alanina (3-6g/día)"
+            "Beta-alanina (3-6g/día)",
         ],
     },
     {
@@ -162,7 +163,7 @@ export const gymFaq = [
             "Factores clave:",
             "Recuperación completa del sistema nervioso",
             "Restablecimiento de ATP-CP (>95%)",
-            "Recuperación metabólica"
+            "Recuperación metabólica",
         ],
     },
     {
@@ -177,7 +178,7 @@ export const gymFaq = [
             "ROM completo sin compensaciones",
             "Trabajo accesorio",
             "Movilidad 3x/semana",
-            "Core stability diario"
+            "Core stability diario",
         ],
     },
     {
@@ -192,7 +193,7 @@ export const gymFaq = [
             "Rendimiento reducido en alta intensidad",
             "Recomendación práctica:",
             "Sesiones <45 min de intensidad moderada",
-            "Suplementar con 10g BCAA si se entrena ayunas"
+            "Suplementar con 10g BCAA si se entrena ayunas",
         ],
     },
     {
@@ -208,7 +209,81 @@ export const gymFaq = [
             "Consistencia en entrenamiento y nutrición",
             "Progresión adecuada de cargas",
             "Recuperación óptima (sueño + manejo estrés)",
-            "NOTA: Tomar medidas antropométricas semanales > confiar solo en el espejo"
+            "NOTA: Tomar medidas antropométricas semanales > confiar solo en el espejo",
         ],
-    }
+    },
 ];
+
+export const testimonials = [
+    {
+        id: "0",
+        name: "Jessica Sánchez",
+        role: "Miembro desde 2022",
+        avatarUrl: "/images/testimonials/jessica-saunders.png",
+        comment:
+            "Desde que empecé en el gimnasio, he bajado 10 kilos y me siento con mucha más energía. Los entrenadores son increíbles y siempre están atentos.",
+    },
+    {
+        id: "1",
+        name: "Marcos Erickson",
+        role: "Miembro activa",
+        avatarUrl: "/images/testimonials/mark-erixon.png",
+        comment:
+            "Nunca pensé que disfrutaría tanto hacer ejercicio. Las clases grupales son motivadoras y el ambiente es súper amigable.",
+    },
+    {
+        id: "2",
+        name: "Melanie Hurtado",
+        role: "Cliente frecuente",
+        avatarUrl: "/images/testimonials/melanie-hurst.png",
+        comment:
+            "Tenía problemas de espalda por el trabajo, pero con la rutina que me armaron aquí, he mejorado muchísimo. ¡Gracias al equipo!",
+    },
+    {
+        id: "3",
+        name: "Alicia Bárcena",
+        role: "Miembro desde enero",
+        avatarUrl: "/images/testimonials/alicia-barker.png",
+        comment:
+            "Me encanta cómo se enfocan en el bienestar completo. No es solo un gimnasio, es un estilo de vida saludable.",
+    },
+    {
+        id: "4",
+        name: "Rebeca Snider",
+        role: "Socio mensual",
+        avatarUrl: "/images/testimonials/becky-snider.png",
+        comment:
+            "Después de un mes, ya noto cambios físicos. El equipo y los equipos del gimnasio son de primera. ¡Muy recomendable!",
+    },
+    {
+        id: "5",
+        name: "Jaime Bradley",
+        role: "Miembro activa",
+        avatarUrl: "/images/testimonials/jim-bradley.png",
+        comment:
+            "Recuperé mi confianza y energía. Este gimnasio no solo me ayudó físicamente, sino también emocionalmente. ¡Estoy feliz!",
+    },
+];
+
+
+export const socials = [
+    {
+      id: "0",
+      title: "x",
+      icon: "/images/socials/x.svg",
+      url: "#",
+    },
+    {
+      id: "1",
+      title: "Threads",
+      icon: "/images/socials/threads.svg",
+      url: "#",
+    },
+    {
+      id: "2",
+      title: "Instagram",
+      icon: "/images/socials/instagram.svg",
+      url: "#",
+    },
+    
+  ];

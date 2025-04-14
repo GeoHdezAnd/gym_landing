@@ -53,7 +53,7 @@
     }
 
     .h3 {
-        @apply text-[48px] font-extrabold leading-[35px] tracking-[-.2rem] ;
+        @apply text-[48px] font-extrabold leading-[38px] tracking-[-.2rem] ;
     }
 
     .h4 {
@@ -150,7 +150,11 @@
     /* END of Gradients */
     /* START of Common */
     .container {
-        @apply mx-auto max-w-[1252px] px-16 max-xl:px-10 max-lg:px-6 max-sm:px-4;
+        @apply  mx-auto max-w-[1252px] px-16 max-xl:px-10 max-lg:px-6 max-sm:px-4;
+    }
+
+    .container-2 {
+        @apply  mx-auto px-16 max-xl:px-10 max-lg:px-6 max-sm:px-4;
     }
 
     .caption {
@@ -251,7 +255,7 @@
     /* END of Pricing */
     /* START of FAQ */
     .faq-line_after {
-        @apply after:absolute after:-top-1.5 after:left-[calc(50%-5px)] after:z-4 after:size-2 after:rounded-half after:border after:border-s4 after:bg-s1 after:content-[''];
+        @apply after:absolute after:-top-1.5 after:left-[calc(50%-5px)] after:z-4 after:size-2 after:rounded-half after:border after:border-s4 after:bg-p3 after:content-[''];
     }
 
     .faq-glow_before {
@@ -269,7 +273,7 @@
     }
 
     .testimonials_inner-before {
-        @apply before:pointer-events-none before:absolute before:-top-28 before:left-[calc(50%-1px)] before:h-[calc(100%+218px)] before:w-0.5 before:bg-s2 before:content-[''] before:max-lg:top-0 before:max-lg:h-full before:max-md:hidden;
+        @apply before:pointer-events-none before:absolute before:-top-28 before:left-[calc(50%-1px)] before:h-[calc(100%+218px)] before:w-[1px] before:bg-p3 before:content-[''] before:max-lg:top-0 before:max-lg:h-full before:max-md:hidden;
     }
 
     .testimonials_inner-after {
@@ -277,7 +281,7 @@
     }
 
     .testimonials_group-after {
-        @apply after:pointer-events-none after:absolute after:-bottom-[212px] after:left-[calc(50%-5px)] after:z-2 after:size-2.5 after:rounded-half after:border-2 after:border-s5 after:bg-s1 after:content-[''] max-lg:after:-bottom-[102px] max-md:after:hidden;
+        @apply after:pointer-events-none after:absolute after:-bottom-[212px] after:left-[calc(50%-5px)] after:z-2 after:size-2.5 after:rounded-half after:border-2 after:border-s5 after:bg-p3 after:content-[''] max-lg:after:-bottom-[102px] max-md:after:hidden;
     }
 
     /* END of Testimonials */
@@ -287,7 +291,7 @@
     }
 
     .download_tech-link_last-after {
-        @apply last:after:pointer-events-none last:after:absolute last:after:left-[223px] last:after:top-[calc(50%-5px)] last:after:z-2 last:after:size-2.5 last:after:rounded-half last:after:border-2 last:after:border-s5 last:after:bg-s1 last:after:content-[''] last:after:max-xl:left-[187px] last:after:max-lg:left-[163px] last:after:max-md:hidden;
+        @apply last:after:pointer-events-none last:after:absolute last:after:left-[223px] last:after:top-[calc(50%-5px)] last:after:z-2 last:after:size-2.5 last:after:rounded-half last:after:border-2 last:after:border-s5 last:after:bg-p3 last:after:content-[''] last:after:max-xl:left-[187px] last:after:max-lg:left-[163px] last:after:max-md:hidden;
     }
 
     .download_tech-icon {

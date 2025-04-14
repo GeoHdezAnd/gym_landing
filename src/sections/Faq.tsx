@@ -9,15 +9,16 @@ const Faq = () => {
     return (
         <section>
             <Element name="faq" className="relative">
-                <div className="container relative z-2 py-28">
+                <div className="container relative z-2 pt-32 ">
                     <div>
                         <motion.h3
                             variants={SlideLeft(0.2)}
                             initial="hidden"
                             whileInView="visible"
-                            className="h3  max-w-512 max-lg:max-w-md mb-7 text-p4"
+                            className="h3  max-w-640 max-lg:max-w-md mb-7 text-p4"
                         >
-                            Consejos para alcanzar tu <span className="text-p2">máximo</span> potencial
+                            Consejos para alcanzar tu{" "}
+                            <span className="text-p2">máximo</span> potencial
                         </motion.h3>
                         <p className="body-1 max-lg:pb-16 max-lg:max-w-sm">
                             {" "}

@@ -43,8 +43,8 @@ const Hero = () => {
                             animate="visible"
                         >
                             <LinkScroll to="features" offset={-100} spy smooth>
-                                <Button icon="ri-account-circle-fill">
-                                    !Iniciar sesión!
+                                <Button icon="ri-whatsapp-line">
+                                    !Contactanos!
                                 </Button>
                             </LinkScroll>
                         </motion.div>
